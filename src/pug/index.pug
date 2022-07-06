@@ -61,18 +61,7 @@ html(lang='en')
                     .col-lg-6
                         // Masthead device mockup feature
                         .masthead-device-mockup
-                            include includes/gradient-circle
-                            include includes/shape-1
-                            include includes/shape-2
-                            .device-wrapper
-                                .device(data-device='iPhoneX', data-orientation='portrait', data-color='black')
-                                    .screen.bg-black
-                                        // PUT CONTENTS HERE:
-                                        // * * This can be a video, image, or just about anything else.
-                                        // * * Set the max width of your media to 100% and the height to
-                                        // * * 100% like the demo example below.
-                                        video(muted='muted', autoplay='', loop='', style='max-width: 100%; height: 100%;')
-                                            source(src='assets/img/demo-screen.mp4', type='video/mp4')
+                            img(src="assets/img/store.gif" style="max-width: 100%; height: 100%; object-fit:cover;")
 
         // Quote/testimonial aside
         aside.text-center.bg-gradient-primary-to-secondary
@@ -80,7 +69,7 @@ html(lang='en')
                 .row.gx-5.justify-content-center
                     .col-xl-8
                         .h2.fs-1.text-white.mb-4 "An intuitive solution to a common E-commerce problem that we all face, wrapped up in a single app!"
-                        img( src="assets/img/store.gif" style="max-width: 100%; height: 100%; object-fit:cover;")
+                        h1(style="font-family: 'Inter', sans-serif; font-size:45px; color:#fff; margin:4rem 0 0 0") Reelshop
 
         // App features section
         section#features
@@ -142,7 +131,7 @@ html(lang='en')
                             to give you the best shopping experience there is out there. 
                     .col-sm-8.col-md-6
                         .px-5.px-sm-0
-                            img.img-fluid.rounded-circle(src='https://source.unsplash.com/u8Jn2rzYIps/900x900', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/virtual.gif', alt='...')
 
         // Call to action section
         section.cta
