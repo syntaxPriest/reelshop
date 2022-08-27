@@ -10,6 +10,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
 :root {
   --bs-blue: #2937f0;
   --bs-indigo: #6610f2;
@@ -11539,7 +11540,7 @@ footer a:hover, footer a:active, footer a:focus {
 }
 
 .masthead {
-  background-color: #f8f9fa;
+  background-color: #fff;
   padding-top: 9.5rem;
   padding-bottom: 5rem;
 }
